@@ -23,7 +23,8 @@ RUN apt install -y \
      iputils-ping \
      wifite \
      pciutils \
-     python3-tqdm
+     python3-tqdm \
+     ifupdown
 
 
 RUN git config --global --add safe.directory $PWD
